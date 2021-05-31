@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Aprende Jugando</title>
+</head>
+<body background= img/fondo.jpg>
+    <!-- <audio preload autoplay loop>
+        <source src="musica/mientras.mp3" type="audio/mp3">
+    </audio> -->
+    <header>
+        <div class="menu">
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z" />
+                  </svg></a>
+            <h1 class="titulo">Resta</h1>
+            <img src="img/logo.png" style="width: 8%;">
+        </div>
+    </header>
+    <div class="acomodar mt-1_5">
+        <section class="bar-info">
+            <h2>Progreso</h2>
+        </section>
+        <section class="bar-info">
+            <h2>Intentos</h2>
+        </section>
+    </div>
+   <div style="display: flex; justify-content: space-between;">
+        <div class="caja">
+            <img src="img/estrella.png" class="img">
+            <span id="parte_1" class="linea"></span>
+            <span id="parte_2" class="linea"></span>
+            <span id="parte_3" class="linea"></span>
+            <span id="parte_4" class="linea"></span>
+            <span id="parte_5" class="linea-2"></span>
+        </div>
+        <div class="intentos">
+            <div>
+                <img id="star_1" src="img/punto.png">
+            </div>
+            <div>
+                <img id="star_2" src="img/punto.png">
+            </div>
+            <div>
+                <img id="star_3" src="img/punto.png">
+            </div>
+        </div>
+   </div>
+    <div class="juego mt-1_5">
+        <p id="msg_final" style="color: aliceblue;">No deberias de leer esto</p>
+        <div id="bananitas" class="acomodar">
+            <!--Cantidad 1-->
+            <div id="izquierda" style="width: 45%;" class="acomodar juego-margen centrar">
+                <img src="img/banana.png" class="banana">
+                <img src="img/banana.png" class="banana">
+            </div>
+            <img src="img/menos.png" style="width: 10%;height: 10%;margin-top: 2%;">
+            <div id="derecha" style="width: 45%;" class="acomodar juego-margen centrar">
+                <img src="img/banana.png" class="banana">
+            </div>
+        </div>
+        <div id="bananitas2" class="acomodar">
+            <!--Cantidad 1-->
+            <div id="izquierda2" style="width: 45%;" class="acomodar juego-margen centrar">
+                <span></span>
+            </div>
+            <span style="width: 10%;height: 10%;"></span>
+            <div id="derecha2" style="width: 45%;" class="acomodar juego-margen centrar">
+                <span></span>
+            </div>
+        </div>
+        <p style="color: aliceblue;">Tampoco esto</p>
+    </div>
+    <footer class="mt-5">
+        <div id="respuestas" class="acomodar">
+            <label for=""> </label>
+            <p id="btn-1" class="btn">2</p>
+            <p id="btn-2" class="btn">0</p>
+            <p id="btn-3" class="btn">3</p>
+            <label for=""> </label>
+        </div>
+    </footer>
+    <script src="scripts/resta.js"></script>
+</body>
+</html>

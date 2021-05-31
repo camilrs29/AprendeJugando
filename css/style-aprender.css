@@ -1,0 +1,14 @@
+.container{
+  display: block;
+  text-align: center;
+}
+.parrafo{
+  color: white;
+  display: block;
+  width: 100%;
+  margin-top: -2%;
+  margin-top: 10%;
+  font-size: 30px;
+  font-family: "Arial";
+  text-align: center;
+}

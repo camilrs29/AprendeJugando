@@ -1,0 +1,167 @@
+body{
+	font-family: 'Pangolin', cursive;
+}
+div section h2{
+	display: inline;
+	color: aliceblue;
+}
+h1 {
+	color: bisque;
+}
+
+/* clases */
+.titulo {
+	text-align: center;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.diseño-menu{
+	width: 50%;
+	display: inline;
+}
+.acomodar{
+	display: flex;
+	justify-content: space-between;
+}
+.mt-5{
+	margin-top: 5%;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.mt-1_5{
+	margin-top: 1.5%;
+}
+.intentos{
+	width: 20%;
+	height: 2rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.juego{
+	margin-left: 9%;
+	background-color:  aliceblue;
+	width: 80%;
+}
+.btn{
+	width: 10%;
+	background-color: #1bd817;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 25px;
+	padding: 1%;
+	box-shadow: 10px 10px 10px black;
+}
+.btn:hover{
+	background-color: #1bba16;
+}
+.columna{
+	display: flex;
+	justify-content: space-around;
+}
+.juego-margen{
+	margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .centrar{
+	  justify-content: center;
+	  align-items: center;
+  }
+  .banana{
+	  width: 25%;
+  }
+  .jtfy-center{
+	  justify-content: center;
+  }
+  .txt-center{
+	  text-align: center;
+  }
+  .txt{
+		text-align: center;
+		color: orange;
+  }
+  .txt-decor{
+	text-decoration: none;
+  }
+ .mg-left{
+	 margin-left: 40%;
+ }
+ .dis-block{
+	 display: block;
+ }
+ .troll{
+	 position: relative;
+	 bottom: 100px;
+ }
+
+/* clases  para la barra de puntaje */
+.caja{
+	margin-top: 1%;
+	display: flex;
+	margin-left: 1%;
+	border-radius: 10px;
+	width: 20%;
+  }
+  .linea{
+	border:#a8891a 1px solid;
+	display: inline-block;
+	background-color: white;
+	width: 10%;
+	height: 80%;
+	color: #FFD022;
+  }
+  .linea-2{
+	border:#a8891a 1px solid;
+	display: inline-block;
+	background-color: white;
+	width: 10%;
+	height: 80%;
+	color: #FFD022;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+  }
+  .colorear{
+	background-color: #FFD022;
+  }
+  .img{
+	width: 15%;
+	height: 90%;
+  }
+
+  /* codigo css de k1000 */
+
+  .container{
+	width: 75.5%;
+	margin-top: 15%;
+	padding-left:25%;
+	text-align: center;
+}
+.parrafo{
+	display: block;
+	width: 100%;
+	margin-top: -15%;
+	font-size: 40px;
+	font-family: "Arial";
+	text-align: center;
+	color: white;
+}
+.btn-1{
+  background-color: #1bd817;
+  border: 1px solid #4abc96;
+  border-radius: 25px;
+  color: white;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: -10%;
+  display: inline-block;
+  font-size: 35px;
+  padding: 55px 59px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-1:hover {
+  background-color: #1bba16;
+}

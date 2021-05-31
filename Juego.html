@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/pau_style_jugar.css">
+    <title>Tamaños y espacios</title>
+</head>
+<body background= img/fondo.jpg>
+    <header>
+        <div class="menu">
+            <a href="index.html" class="mt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z" />
+                  </svg></a>
+            
+            <h1 class="titulo">Tamaños y espacios</h1>
+            <img src="img/logo.png" style="width: 8%;">
+        </div>
+    </header>
+
+    <div class="menu-principal mt-1_5">
+        <section class="bar-info">
+            <h2>Puntaje</h2>
+        </section>
+        <section class="bar-info">
+            <h2>Intentos</h2>
+        </section>
+    </div>
+   <div style="display: flex; justify-content: space-between;">
+        <div class="caja">
+            <img src="img/estrella.png" class="img">
+            <span class="linea" id="uno"></span>
+            <span class="linea" id="dos"></span>
+            <span class="linea" id="tres"></span>
+            <span class="linea" id="cuatro"></span>
+            <span class="linea-2" id="cicno"></span>
+        </div>
+        <div class="intentos">
+            <div>
+                <img id=estrella-1 src="img/punto.png">
+            </div>
+            <div>
+                <img id=estrella-2 src="img/punto.png">
+            </div>
+            <div>
+                <img id=estrella-3 src="img/punto.png">
+            </div>
+        </div>
+   </div>
+    <div id="juego" class="juego mt-5">
+        <!-- suma -->
+        <!--<p>Aqui va el juego</p>-->
+        <div align="center">
+            <a id="gato"><img src="img/gato.gif" height= "200px" width= "200px"style="border-radius: 15px"></a>
+        </div>
+        <div align="center"><tittle id="titulo" style=" font-family:arial; font-size: 25px; "> Selecciona el avion que esta arriba en el cielo <br></tittle></div>
+        <div align="center">
+            <a>
+                <img id="caso-1" src="img/avionAbajoX.PNG" height= "200px" width= "200px" style="border-radius: 15px">
+            </a>
+            <a>
+                <img id="caso-2" src="img/avionArriba.JPG" height= "200px" width= "200px" style="border-radius: 15px">
+            </a>
+    </div>
+    <script type="text/javascript" src="scripts/juego.js"></script>
+    <footer>
+    </footer>
+</body>
+</html>

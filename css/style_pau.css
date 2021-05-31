@@ -1,0 +1,72 @@
+body{
+	font-family: 'Pangolin', cursive;
+}
+div section h2{
+	display: inline;
+	color: aliceblue;
+}
+h1 {
+	color: bisque;
+}
+.titulo {
+	text-align: center;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.diseño-menu{
+	width: 50%;
+	display: inline;
+}
+.menu-principal{
+	display: flex;
+	justify-content: space-between;
+}
+.mt-5{
+	margin-top: 5%;
+	border-radius: 15px;
+}
+.mt-1_5{
+	margin-top: 1.5%;
+}
+.intentos{
+	width: 20%;
+	height: 2rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.juego{
+	margin-left: 9%;
+	background-color:  aliceblue;
+	width: 80%;
+}
+.caja{
+	margin-top: 1%;
+	display: flex;
+	margin-left: 1%;
+	border-radius: 10px;
+	width: 20%;
+  }
+  .linea{
+	border:#a8891a 1px solid;
+	display: inline-block;
+	background-color: white;
+	width: 10%;
+	height: 80%;
+	color: #FFD022;
+  }
+  .linea-2{
+	border:#a8891a 1px solid;
+	display: inline-block;
+	background-color: white;
+	width: 10%;
+	height: 80%;
+	color: #FFD022;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+  }
+  .img{
+	width: 15%;
+	height: 90%;
+  }
