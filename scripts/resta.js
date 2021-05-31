@@ -190,6 +190,7 @@ function btnrandom(min, max) {
                 etiquetaAudio.src= "musica/error.ogg"
                 etiquetaAudio.play()
                 limpiar("bananitas");
+                limpiar("bananitas2");
                 limpiar("respuestas");
                 perdio();
 
