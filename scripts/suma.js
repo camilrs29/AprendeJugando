@@ -87,7 +87,7 @@ function btnrandom(min, max) {
         const casa = document.createElement("A")
 
 
-        msg.textContent = "Has perdido"
+        msg.textContent = "¡Oh no!, Has perdido"
         msg.classList.add("txt")
         imgn.src = "img/perdio.gif";
         imgn.classList.add("banana");
@@ -110,6 +110,41 @@ function btnrandom(min, max) {
         pie.appendChild(es_pan2)
         
    }
+
+   function gano(){
+    const msg = document.createElement('P')
+    const imgn = document.createElement('IMG')
+    const casa = document.createElement('IMG')
+    const juego = document.querySelector("#bananitas");
+    const enlace_inicio = document.createElement('A')
+    const contendor = document.createElement('DIV')
+    const pie = document.querySelector("#respuestas");
+
+    let etiquetaAudio = document.createElement("AUDIO")
+    etiquetaAudio.src= "musica/mientras.mp3"
+    etiquetaAudio.play()
+
+    pie.style="display:flex;justify-content:center;"
+    contendor.style = "display: flex;justify-content: center;"
+    msg.textContent = "¡Felicidades!, has terminado"
+    msg.classList.add("txt")
+    imgn.src = "img/gano.gif";
+    casa.src = "img/home.png";
+    casa.classList.add("banana");
+    imgn.classList.add("banana");
+    imgn.classList.add("mg-left");
+    juego.classList.add("jtfy-center")
+    juego.classList.add("dis-block")
+    enlace_inicio.href = "index.html"
+    enlace_inicio.classList.add("txt-decor")
+    enlace_inicio.classList.add("txt-center")
+    enlace_inicio.appendChild(casa)
+    contendor.appendChild(enlace_inicio)
+    juego.appendChild(msg)
+    juego.appendChild(imgn)
+    pie.appendChild(contendor);
+   
+}
 
 
    function evaluar (numCorrecto, boton){
@@ -153,26 +188,7 @@ function btnrandom(min, max) {
                     limpiar("bananitas");
                     limpiar("respuestas");
         
-                    const enlace_inicio = document.createElement('A')
-                    const msg = document.createElement('P')
-                    const imgn = document.createElement('IMG')
-                    const juego = document.querySelector("#bananitas");
-
-                    let etiquetaAudio = document.createElement("AUDIO")
-                    etiquetaAudio.src= "musica/mientras.mp3"
-                    etiquetaAudio.play()
-
-                    msg.textContent = "¡Felicidades!, has terminado"
-                    msg.classList.add("txt")
-                    imgn.src = "img/home.png";
-                    imgn.classList.add("banana");
-                    juego.classList.add("jtfy-center")
-                    enlace_inicio.href = "index.html"
-                    enlace_inicio.classList.add("txt-decor")
-                    enlace_inicio.classList.add("txt-center")
-                    enlace_inicio.appendChild(msg)
-                    enlace_inicio.appendChild(imgn)
-                    juego.appendChild(enlace_inicio);
+                    gano();
                     break;
             }
         }else{
