@@ -53,12 +53,12 @@ const btn4 = document.querySelector("#Círculo");
 
        function imprimir_perder(){
             var container = document.getElementById('juego');
-            container.innerHTML = '<div class="perdio" style="background-color: white; width: 80%; text-align: center; height: 35%;"><strong class="titulo-p">Has perdido</strong><img style="width: 20%; padding-top: 10px;" src="img//2.gif"></div><div class="botones"><a class="new" id="Triángulo" href="Figuras.html">Nuevo juego</a><a href="index.html" class="home" id="Cuadrado">Inicio</a></div>';
+            container.innerHTML = '<div class="perdio" style="background-color: white; width: 80%; text-align: center; height: 35%;"><strong class="titulo-p">¡Oh no!, has perdido</strong><img style="width: 20%; padding-top: 10px;" src="img//2.gif"></div><div class="botones"><a class="new" id="Triángulo" href="Figuras.html">Nuevo juego</a><a href="index.html" class="home" id="Cuadrado">Inicio</a></div>';
        }
 
        function imprimir_ganar(){
         var container = document.getElementById('juego');
-        container.innerHTML ='<div class="perdio" style="background-color: white; width: 80%; text-align: center; height: 35%;"><p class="titulo-p">¡Felicidades!, has terminado</p><a href="index.html"><img style="width: 8%; padding-top: 10px;" src="img//home.png"></a></div>';
+        container.innerHTML ='<div class="perdio" style="background-color: white; width: 80%; text-align: center; height: 35%;"><p class="titulo-p">¡Felicidades!, has terminado</p><img style="width: 13%; padding-top: 10px;" src="img//ganooso.gif"></div><a style="display:block; text-align:center;" href="index.html"><img style="width:5%; margin-top:5%;" src="img/home.png"></img></a>';
        }
 
     function vida(){

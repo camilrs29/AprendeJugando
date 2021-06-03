@@ -87,8 +87,8 @@ function btnrandom(min, max) {
         const casa = document.createElement("A")
 
 
-        msg.textContent = "¡Oh no!, Has perdido"
-        msg.classList.add("txt")
+        msg.textContent = "¡Oh no!, has perdido";
+        msg.classList.add("txt");
         imgn.src = "img/perdio.gif";
         imgn.classList.add("banana");
         imgn.classList.add("mg-left");
@@ -97,7 +97,7 @@ function btnrandom(min, max) {
         juego.appendChild(msg)
         juego.appendChild(imgn)
 
-        nuevo.textContent = "Nuevo juego"
+        nuevo.textContent = "Nuevo juego";
         nuevo.classList.add("btn")
         nuevo.href = "suma.html"
         casa.textContent = "Inicio"
